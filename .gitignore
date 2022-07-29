@@ -1,0 +1,135 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/Web/dist
+/Web/tmp
+/Web/out-tsc
+/Web/bazel-out
+
+# Node
+/Web/node_modules
+/Web/npm-debug.log
+/Webyarn-error.log
+
+# IDEs and editors
+/Web/.idea/
+/Web/.project
+/Web/.classpath
+/Web/.c9/
+/Web/*.launch
+/Web/.settings/
+/Web/*.sublime-workspace
+
+# Visual Studio Code
+/Web/.vscode/*
+/Web/!.vscode/settings.json
+/Web/!.vscode/tasks.json
+/Web/!.vscode/launch.json
+/Web/!.vscode/extensions.json
+/Web/.history/*
+
+# Miscellaneous
+/Web/.angular/cache
+/Web/.sass-cache/
+/Web/connect.lock
+/Web/coverage
+/Web//libpeerconnection.log
+/Web/testem.log
+/Web/typings
+
+# System files
+/API/DS_Store
+/API/Thumbs.db
+
+# Compiled class file
+/API/*.class
+
+# Log file
+/API/*.log
+
+# BlueJ files
+/API/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+/Web/.mtj.tmp/
+
+# Package Files #
+/API/**/*.jar
+/API/**/*.war
+/API/**/*.nar
+/API/**/*.ear
+/API/**/*.zip
+/API/**/*.tar.gz
+/API/**/*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+/API/**/.metadata
+/API/**/.project
+/API/**/bin/
+/API/**/tmp/
+/API/**/*.tmp
+/API/**/*.bak
+/API/**/*.swp
+/API/**/*~.nib
+/API/**/tmp/**/*
+/API/**/local.properties
+/API/**/.settings/
+/API/**/.classpath
+/API/**/.loadpath
+/API/**/.recommenders
+/API/**/.properties
+
+# External tool builders
+/API/**/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+/API/**/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+/API/**/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+/API/**/.cproject
+
+# CDT- autotools
+/API/**/.autotools
+
+# Java annotation processor (APT)
+/API/**/.factorypath
+
+# PDT-specific (PHP Development Tools)
+/API/**/.buildpath
+
+# sbteclipse plugin
+/API/**/.target
+
+# Tern plugin
+/API/**/.tern-project
+
+# TeXlipse plugin
+/API/**/.texlipse
+
+# STS (Spring Tool Suite)
+/API/**/.springBeans
+
+# Code Recommenders
+/API/**/.recommenders/
+
+# Annotation Processing
+/API/**/.apt_generated/
+/API/**/.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+/API/**/.cache-main
+/API/**/.scala_dependencies
+/API/**/.worksheet
+
+/API/**/target
+
+/API/**/HELP.md
+/API/**/**/!.mvn/wrapper/
+/API/**/**/src/main/**/target/
+/API/**/**/src/test/**/target/
+
